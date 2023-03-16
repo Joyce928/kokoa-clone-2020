@@ -24,56 +24,32 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
         <span><i class="fa-solid fa-gear fa-lg"></i></span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fa-solid fa-circle-info"></i>
-      Friends' Names Display
-      <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
+    <main class="main-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
             src="https://avatars.githubusercontent.com/u/3612017?v=4"
-            class="user-component__avatar user-component__avatar--xl"
+            class="user-component__avatar"
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Nicolas</h4>
-            <!--<h6 class="user-component__subtitle">this text whatever</h6>-->
+            <h6 class="user-component__subtitle">
+              Please check My Kokoa Account Info
+            </h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fa-solid fa-chevron-up fa-xs"></i>
-        </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://avatars.githubusercontent.com/u/3612017?v=4"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                Channel
-              </h4>
-              <!--<h6 class="user-component__subtitle">this text whatever</h6>-->
-            </div>
-          </div>
-          <div class="user-component__column">
-            <span>2</span>
-            <i class="fa-solid fa-chevron-right fa-xs"></i>
-          </div>
+        <div class="user-component__column">
+          <span class="user-component__time">21:22</span>
+          <div class="badge">1</div>
         </div>
       </div>
     </main>
@@ -82,28 +58,14 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fa-solid fa-user fa-2x"></i
+            ><i class="fa-regular fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification__number">1</span>
             <!--<i class="fa-thin fa-comment"></i>-->
-            <svg
-              class="nav__chat"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="{1.5}"
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-              />
-            </svg>
+            <i class="fa-solid fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
