@@ -1,0 +1,9 @@
+#chat-screen {
+  background: #abc1d2;
+}
+
+.alt-header__column:last-child span:last-child {
+  margin-left: 20px;
+}
+
+
